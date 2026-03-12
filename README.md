@@ -98,16 +98,16 @@
 * 함수가 반복될 때마다 데이터를 바꾸고 싶을 때 매개변수가 필요하다.
 * 함수를 호출할때마다 데이터를 받는 변수를 함수 내에서 생성한다.
 * 사용방법(예시)
-    `coffee(menu='카페라떼');` -> 함수호출
-    `function coffee(menu){}` -> 함수준비(function)
-    `console.log('${menu} 주문완료');` -> (function 중괄호 내용)
+    * `coffee(menu='카페라떼');` -> 함수호출
+    * `function coffee(menu){}` -> 함수준비(function)
+    * `console.log('${menu} 주문완료');` -> (function 중괄호 내용)
 ## 배열
 * 2개 이상의 데이터값을 가질 경우 사용한다.
 * const 배열명 = [저장데이터1, 저장데이터2];
 * 배열명[배열인덱스번호];
 * 배열 인덱스는 0부터 시작
 * 사용방법(예시)
-    `const menuAll = ['카페라떼','아메리카노','녹차라떼'];` -> 변수
-    `cafeKiosk(0, 0, 2);` -> 함수호출
-    `function cafeKiosk(temp, menu, num=1){}` -> 함수준비(function)
-    `console.log('${hotIce[temp]} ${menuAll[menu]} ${num}잔 주문완료.');` -> (function 중괄호 내용)
+    * `const menuAll = ['카페라떼','아메리카노','녹차라떼'];` -> 변수
+    * `cafeKiosk(0, 0, 2);` -> 함수호출
+    * `function cafeKiosk(temp, menu, num=1){}` -> 함수준비(function)
+    * `console.log('${hotIce[temp]} ${menuAll[menu]} ${num}잔 주문완료.');` -> (function 중괄호 내용)
