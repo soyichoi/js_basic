@@ -108,6 +108,6 @@
 * 배열 인덱스는 0부터 시작
 * 사용방법(예시)
     * `const menuAll = ['카페라떼','아메리카노','녹차라떼'];` -> 변수
-    * `cafeKiosk(0, 0, 2);` -> 함수호출
-    * `function cafeKiosk(temp, menu, num=1){}` -> 함수준비(function)
-    * `console.log('${hotIce[temp]} ${menuAll[menu]} ${num}잔 주문완료.');` -> (function 중괄호 내용)
+    * `cafeKiosk(0);` -> 함수호출
+    * `function cafeKiosk(menu){}` -> 함수준비(function)
+    * `console.log('${menuAll[menu]} 주문완료');` -> (function 중괄호 내용)
