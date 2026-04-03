@@ -235,7 +235,7 @@
     * `const ul = document.createElement('ul');`
     * `const dd = document.createElement('dd');`
     * `const input = document.createElement('input');`
-#### appendChild 함수
+### appendChild 함수
 * 특정 요소의 마지막 자식 함수로 createElement로 생성한 객체를 삽입해주는 내장함수
     * `main.appendChild(ul);`
     * `dl.appendChild(dd);`
