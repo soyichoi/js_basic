@@ -1,0 +1,9 @@
+/* for2.css */
+header .gnb {
+    display: flex;
+}
+header .gnb li {}
+header .gnb li > a {}
+header .gnb li .lnb {}
+header .gnb li .lnb li {}
+header .gnb li .lnb li a {}
