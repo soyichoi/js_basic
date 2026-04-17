@@ -4,12 +4,12 @@ const cateContent = document.querySelectorAll('.category_contents section');
 
 console.log(topA, cateTitle, cateContent);
 
-// topA.addEventListener('click',function(e){
-//     e.preventDefault(); //href 막기
-//     //객체.함수();
-//     //window.scrollTo(x좌표, y좌표);
-//     window.scrollTo(0,100);
-// })
+topA.addEventListener('click',function(e){
+    e.preventDefault(); //href 막기
+    //객체.함수();
+    //window.scrollTo(x좌표, y좌표);
+    window.scrollTo(0,100);
+})
 
 // //상세 클릭 시 리뷰 위치 이동
 // cateTitle[0].addEventListener('click',function(e){
